@@ -1,6 +1,6 @@
 <template>
   <q-page
-    class="bg-black column justify-center content-center text-uppercase text-bold"
+    class="mainFont bg-black column justify-center content-center text-uppercase text-bold"
   >
     <img
       src="~assets/HomePageBG.png"

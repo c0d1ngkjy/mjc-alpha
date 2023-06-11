@@ -14,7 +14,7 @@
         </q-btn>
       </q-card-section>
       <q-card-section class="column items-center">
-        <div class="text-grey-9 text-bold q-my-sm">echo "Hello world!";</div>
+        <div class="text-grey-9 text-bold q-my-sm">echo "Hello world";</div>
         <div class="row items-center justify-center full-width q-my-sm">
           <q-icon
             size="xl"
