@@ -19,6 +19,10 @@
       <div class="column items-center">
         <div class="text-h6 text-bold">myongji college</div>
         <div class="text-h2 text-bold">alpha</div>
+        <div class="row items-end q-gutter-sm">
+          <div class="text-caption text-grey text-bold">앱미사 짱짱맨</div>
+          <img src="https://i.gifer.com/y8.gif" alt="fire gif" width="20" />
+        </div>
       </div>
 
       <div class="text-primary">????????????????????????????????</div>
