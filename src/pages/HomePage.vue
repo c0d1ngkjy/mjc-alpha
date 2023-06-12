@@ -2,10 +2,16 @@
   <q-page
     class="non-selectable mainFont bg-black column justify-center content-center text-uppercase text-bold"
   >
+    <div
+      style="z-index: 9999; background: transparent"
+      class="fixed-bottom mainFont text-caption text-grey-5 q-ml-sm text-lowercase"
+    >
+      all rights reserved codingkjy28@gmail.com
+    </div>
     <img
       src="~assets/HomePageBG.png"
       alt="bg img"
-      class="absolute-bottom"
+      class="fixed-bottom"
       style="width: 100%"
     />
 
@@ -47,12 +53,6 @@
       </div>
     </div>
   </q-page>
-  <div
-    style="height: 10vh"
-    class="bg-black mainFont text-caption text-white flex flex-center"
-  >
-    all rights reserved codingkjy28@gmail.com
-  </div>
 </template>
 
 <script>
