@@ -8,24 +8,15 @@
       class="fixed-bottom"
       style="width: 100vw"
     />
-    <div class="text-center text-bold text-caption text-grey fixed-top q-mt-lg">
-      @ alpha_webpage
-    </div>
 
     <div
-      class="text-white column justify-between content-center items-center"
+      class="text-white column justify-center content-center items-center"
       style="height: 45vh; z-index: 999"
     >
       <div class="column items-center">
         <div class="text-h6 text-bold">myongji college</div>
-        <div class="text-h2 text-bold">alpha</div>
-        <div class="row items-end q-gutter-sm">
-          <div class="text-caption text-grey text-bold">앱미사 짱짱맨</div>
-          <img src="https://i.gifer.com/y8.gif" alt="fire gif" width="20" />
-        </div>
+        <div class="text-h1 text-bold">alpha</div>
       </div>
-
-      <div class="text-primary">????????????????????????????????</div>
 
       <div class="row q-gutter-xl">
         <div
@@ -33,25 +24,23 @@
           @click="$router.push('/home/intro')"
         >
           <div class="q-my-sm">intro</div>
-          <img src="~assets/2_icon_1.png" alt="icon" width="25" />
+          <img src="~assets/introIcon.png" alt="icon" width="25" />
         </div>
         <div
           class="column items-center cursor-pointer"
           @click="$router.push('/home/curriculum')"
         >
           <div class="q-my-sm">curriculum</div>
-          <img src="~assets/2_icon_2.png" alt="icon" width="25" />
+          <img src="~assets/curriIcon.png" alt="icon" width="25" />
         </div>
         <div
           class="column items-center cursor-pointer"
           @click="$router.push('/home/project')"
         >
           <div class="q-my-sm">project</div>
-          <img src="~assets/2_icon_3.png" alt="icon" width="25" />
+          <img src="~assets/proIcon.png" alt="icon" width="25" />
         </div>
       </div>
-
-      <div class="text-primary">????????????????????????????????</div>
     </div>
   </q-page>
 </template>

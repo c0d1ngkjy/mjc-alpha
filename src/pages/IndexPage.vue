@@ -1,5 +1,8 @@
 <template>
-  <q-page class="bg-black flex flex-center">
+  <q-page class="mainFont bg-dark flex flex-center">
+    <div class="fixed-bottom text-center text-grey q-mb-md text-caption">
+      all rights reserved codingkjy28@gmail.com
+    </div>
     <q-card
       square
       class="bg-grey-5"
@@ -8,13 +11,13 @@
       <q-card-section
         class="q-pa-sm bg-blue-10 row justify-between items-center text-white"
       >
-        <div class="text-bold text-subtitle1">System message</div>
+        <div class="text-subtitle1">System message</div>
         <q-btn square dense color="grey-5 shadow-3 vinBtn" :ripple="false">
           <q-icon name="close" color="grey-8"></q-icon>
         </q-btn>
       </q-card-section>
       <q-card-section class="column items-center">
-        <div class="text-grey-9 text-bold q-my-sm">echo "Hello world";</div>
+        <div class="text-grey-9 q-my-sm">echo "Hello world!";</div>
         <div class="row items-center justify-center full-width q-my-sm">
           <q-icon
             size="xl"
@@ -28,7 +31,7 @@
             v-model="input"
             color=""
             class="bg-white q-mx-md"
-            input-class="text-grey-8 text-bold q-px-md"
+            input-class="text-grey-8 q-px-md"
             dense
             @keydown.enter="checkInput()"
             style="
@@ -41,9 +44,10 @@
           ></q-input>
         </div>
         <q-btn
+          flat
           :ripple="false"
           padding="5px 40px"
-          class="text-grey-8 text-capitalize q-my-sm shadow-1 text-bold vinBtn"
+          class="text-grey-8 text-capitalize q-my-sm shadow-1 vinBtn"
           square
           @click="checkInput()"
           >Ok</q-btn
@@ -63,10 +67,10 @@ export default defineComponent({
     const input = ref("");
     const $router = useRouter();
     function checkInput() {
-      if (input.value.toLowerCase() === "hello world") {
+      if (input.value.toLowerCase() === "hello world!") {
         $router.push("/home");
       } else {
-        console.log("pw invalid");
+        console.log("invalid pw");
         input.value = "";
       }
     }

@@ -1,16 +1,13 @@
 <template>
   <q-page
-    style="padding: 1vw 5vw 8vw 5vw"
-    class="bg-black text-bold text-white column justify-start text-uppercase"
+    style="padding: 8vw 5vw 8vw 5vw"
+    class="bg-black mainFont text-bold text-white column justify-start text-uppercase"
   >
-    <div class="text-grey text-bold text-caption text-center q-mt-lg">
-      @ alpha_webpage_curriculum
-    </div>
     <div class="q-gutter-sm">
       <img src="~assets/curriIcon.png" alt="icon img" width="135" />
       <div class="text-h2 text-bold">this page is about</div>
       <div class="text-primary text-h2 text-bold">; curriculum</div>
-      <div class="text-lowercase text-bold">$db = dbconnection( );</div>
+      <div class="text-lowercase text-bold">$db = dbconnection();</div>
     </div>
 
     <div class="q-my-lg q-mt-xl">
@@ -122,7 +119,7 @@ export default defineComponent({
       {
         index: 5,
         content:
-          "WEBHACKING.KR의 OLD-1 풀어보고 라이트업 작성하기 \n세미나를 듣고 SQL INJECTION에 대해 개념 학습 후 LOS 문제 풀어보기",
+          "WEBHACKING.KR의 OLD-1 풀어보고 라이트업 작성하기 세미나를 듣고 SQL INJECTION에 대해 개념 학습 후 LOS 문제 풀어보기",
       },
       {
         index: 6,
