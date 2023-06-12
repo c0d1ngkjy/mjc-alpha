@@ -1,7 +1,7 @@
 <template>
   <q-page
     style="padding: 8vw 5vw 8vw 5vw"
-    class="bg-black mainFont text-bold text-white column justify-start text-uppercase"
+    class="bg-black mainFont text-bold text-white column justify-start text-uppercase non-selectable"
   >
     <div class="q-gutter-sm">
       <img src="~assets/curriIcon.png" alt="icon img" width="135" />

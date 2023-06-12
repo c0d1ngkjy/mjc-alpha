@@ -1,15 +1,8 @@
 <template>
   <q-page
     style="padding: 8vw 5vw 8vw 5vw"
-    class="bg-black mainFont text-bold text-white column justify-start text-uppercase"
+    class="bg-black mainFont text-bold text-white column justify-start text-uppercase non-selectable"
   >
-    <img
-      src="~assets/TLbanner.png"
-      alt="bg img"
-      class="fixed-top"
-      style="width: 60vw"
-    />
-
     <div class="q-gutter-sm">
       <img src="~assets/introIcon.png" alt="icon img" width="135" />
       <div class="text-h2 text-bold">this page is about</div>
@@ -40,7 +33,7 @@ ALPHA는 처음, 최고, 리더십으로
         </pre>
       </div>
 
-      <div class="col relative-position gt-md">
+      <!-- <div class="col relative-position gt-md">
         <q-card
           square
           class="bg-grey-5"
@@ -83,7 +76,7 @@ ALPHA는 처음, 최고, 리더십으로
           </q-card-section>
           <q-card-section style="height: 200px"></q-card-section>
         </q-card>
-      </div>
+      </div> -->
     </div>
   </q-page>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <q-page
-    class="mainFont bg-black column justify-center content-center text-uppercase text-bold"
+    class="non-selectable mainFont bg-black column justify-center content-center text-uppercase text-bold"
   >
     <img
       src="~assets/HomePageBG.png"
@@ -9,6 +9,9 @@
       style="width: 100vw"
     />
 
+    <q-banner class="fixed-top bg-primary text-white text-center"
+      >최하호 수석 존버</q-banner
+    >
     <div
       class="text-white column justify-center content-center items-center"
       style="height: 45vh; z-index: 999"
@@ -18,7 +21,7 @@
         <div class="text-h1 text-bold">alpha</div>
       </div>
 
-      <div class="row q-gutter-xl">
+      <div class="row q-gutter-xl text-h5">
         <div
           class="column items-center cursor-pointer"
           @click="$router.push('/home/intro')"

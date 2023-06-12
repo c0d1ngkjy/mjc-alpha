@@ -1,5 +1,5 @@
 <template>
-  <q-page class="mainFont bg-dark flex flex-center">
+  <q-page class="mainFont bg-dark flex flex-center non-selectable">
     <div class="fixed-bottom text-center text-grey q-mb-md text-caption">
       all rights reserved codingkjy28@gmail.com
     </div>
