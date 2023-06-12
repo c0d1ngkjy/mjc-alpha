@@ -1,10 +1,9 @@
 <template>
   <q-page
-    style="padding: 8vw 5vw 8vw 5vw"
-    class="bg-black mainFont text-bold text-white column justify-start text-uppercase non-selectable"
+    class="q-pa-lg bg-black mainFont text-bold text-white column justify-start text-uppercase non-selectable"
   >
     <div class="q-gutter-sm">
-      <img src="~assets/introIcon.png" alt="icon img" width="135" />
+      <q-icon name="local_fire_department" size="135px"></q-icon>
       <div class="text-h2 text-bold">this page is about</div>
       <div class="text-primary text-h2 text-bold">; intro</div>
       <div class="text-lowercase text-bold">$db = dbconnection();</div>

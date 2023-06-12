@@ -1,10 +1,9 @@
 <template>
   <q-page
-    style="padding: 8vw 5vw 8vw 5vw"
-    class="bg-black mainFont text-bold text-white column justify-start text-uppercase non-selectable"
+    class="q-pa-lg bg-black mainFont text-bold text-white column justify-start text-uppercase non-selectable"
   >
     <div class="q-gutter-sm">
-      <img src="~assets/curriIcon.png" alt="icon img" width="135" />
+      <q-icon name="assignment" size="135px"></q-icon>
       <div class="text-h2 text-bold">this page is about</div>
       <div class="text-primary text-h2 text-bold">; curriculum</div>
       <div class="text-lowercase text-bold">$db = dbconnection();</div>
@@ -16,7 +15,7 @@
         <div class="text-primary q-ml-sm">system hacking</div>
       </div>
       <q-list>
-        <q-item v-for="cur in system" :key="cur">
+        <q-item v-for="cur in system" :key="cur" class="q-py-md">
           <q-item-section>
             <q-item-label class="text-subtitle1 text-white text-bold"
               ><span class="text-h3">{{ cur.index }}</span
@@ -35,7 +34,7 @@
         <div class="text-primary q-ml-sm">web hacking</div>
       </div>
       <q-list>
-        <q-item v-for="cur in web" :key="cur">
+        <q-item v-for="cur in web" :key="cur" class="q-py-md">
           <q-item-section>
             <q-item-label class="text-subtitle1 text-white text-bold"
               ><span class="text-h3">{{ cur.index }}</span
