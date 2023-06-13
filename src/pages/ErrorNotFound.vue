@@ -1,10 +1,8 @@
 <template>
   <div
-    class="non-selectable mainFont fullscreen bg-black text-primary text-center q-pa-md flex flex-center"
+    class="non-selectable mainFont fullscreen bg-black text-primary text-center flex flex-center"
   >
-    <div>
-      <div class="text">404</div>
-    </div>
+    <div style="z-index: 1000000;" class="text">404</div>
   </div>
 </template>
 
@@ -28,10 +26,10 @@ export default defineComponent({
 
 @keyframes float {
   from {
-    transform: translateY(0) rotateX(20deg) rotateY(-30deg);
+    transform: translateY(0) rotateX(20deg) rotateY(-30deg) translateZ(100px) translateX(60px);
   }
   to {
-    transform: translateY(10px) rotateX(20deg) rotateY(-30deg);
+    transform: translateY(10px) rotateX(20deg) rotateY(-30deg) translateZ(100px) translateX(60px);
   }
 }
 </style>
