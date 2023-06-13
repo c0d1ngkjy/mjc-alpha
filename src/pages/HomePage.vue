@@ -15,8 +15,19 @@
       style="width: 100%"
     />
 
-    <q-banner class="absolute-top bg-primary text-white text-center">
+    <q-banner
+      class="absolute-top bg-primary text-white text-center"
+      v-if="bannerVar"
+    >
       <div>최하호 수석 존버 :)</div>
+      <div class="absolute-right flex flex-center">
+        <q-icon
+          name="close"
+          class="q-mr-md cursor-pointer"
+          size="md"
+          @click="bannerVar = false"
+        ></q-icon>
+      </div>
     </q-banner>
 
     <div
@@ -64,9 +75,11 @@ export default defineComponent({
   setup() {
     const input = ref("");
     const $router = useRouter();
+    const bannerVar = ref(true);
 
     return {
       input,
+      bannerVar,
     };
   },
 });
